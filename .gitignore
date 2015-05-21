@@ -1,0 +1,40 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+target
+# OS folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+*.class
+
+# sbt specific
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+atlassian-ide-plugin.xml
+
+# Scala-IDE specific
+.scala_dependencies
+
+*.keystore
+
+# IntelliJ files
+.idea
+*.iml
+
+..sxr

@@ -1,0 +1,4 @@
+<plugin>
+        <name>qmark</name>
+        <classname>com.github.joprice.qmark.QMarkPlugin</classname>
+</plugin>
