@@ -3,8 +3,14 @@ QMark
 
 ### A scala compiler plugin for supporting the safe reference operator '?'
 
+This is a toy project for learning the scala compiler plugin apis. It only supports the '?' in a restricted way, and will likely
+break in interesting and unexpected ways. See `Test.scala` for an example of the syntax it supports.
+
 ### Usage
 * TODO
+
+### Known Issues
+* the `?` operator must be followed by a space, with no period: `x? toUpperCase`
 
 ### Resources
 
