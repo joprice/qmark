@@ -1,4 +1,3 @@
-
 import Configurations.CompilerPlugin
 
 name := "qmark"
@@ -7,7 +6,8 @@ organization := "com.github.joprice"
 
 lazy val plugin = project
   .settings(
-    name := "plugin",
+    name := "qmark-plugin",
+    version := "0.0.1",
     scalaVersion := "2.11.6",
     organization := "com.github.joprice",
     exportJars := true,
@@ -17,7 +17,10 @@ lazy val plugin = project
     ),
     scalacOptions ++= Seq(
      "-Xlog-free-terms"
-    )
+    ),
+    bintrayRepository := "maven",
+    bintrayOrganization in bintray := Some("joprice"),
+    licenses += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
   )
 
 lazy val test = project
@@ -36,3 +39,4 @@ lazy val qmark = project.in(file("."))
   )
   .dependsOn(test)
   .aggregate(test)
+

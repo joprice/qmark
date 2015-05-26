@@ -7,7 +7,18 @@ This is a toy project for learning the scala compiler plugin apis. It only suppo
 break in interesting and unexpected ways. See [Test.scala](test/src/main/scala/Test.scala) for an example of the syntax it supports.
 
 ### Usage
-* TODO
+
+* add the compiler plugin:
+
+```
+scalaVersion := "2.11.6" // only supports 2.11
+resolvers += Resolver.bintrayRepo("joprice", "maven")
+addCompilerPlugin("com.github.joprice" %% "qmark-plugin" % "0.0.1")
+```
+
+* write some code that makes use of the operator
+
+* compile
 
 ### Known Issues
 * the `?` operator must be followed by a space, with no period: `x? toUpperCase`
