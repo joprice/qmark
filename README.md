@@ -1,12 +1,12 @@
 QMark
 =================
 
-## A scala compiler plugin for supporting the safe reference operator '?'
+### A scala compiler plugin for supporting the safe reference operator '?'
 
-## Usage
+### Usage
 * TODO
 
-## Resources
+### Resources
 
 Some useful code and articles useful when writing compiler plugins:
 
@@ -17,7 +17,7 @@ Some useful code and articles useful when writing compiler plugins:
 * https://code.google.com/p/avro-scala-compiler-plugin/source/browse/trunk/src/main/scala/plugin/
 * http://www.scala-lang.org/old/node/140
 * https://github.com/scala/scala-continuations/blob/e771745a7255e778511953d7d32a9ee5d95a0625/plugin/src/main/scala/scala/tools/selectivecps/SelectiveCPSPlugin.scala
-* http://scala-miniboxing.org/ - watch vid here
+* http://scala-miniboxing.org/ (video)
 * https://github.com/gseitz/Lensed
 * https://github.com/adamw/jsr305-scala-compiler-plugin/blob/master/plugin/src/main/scala/AnnotationsCheckGenPlugin.scala
 * http://www.scala-lang.org/api/2.11.1/scala-compiler/index.html#scala.tools.nsc.transform.TypingTransformers$TypingTransformer
