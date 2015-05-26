@@ -10,7 +10,7 @@ break in interesting and unexpected ways. See [Test.scala](test/src/main/scala/T
 
 * add the compiler plugin:
 
-```
+```scala
 scalaVersion := "2.11.6" // only supports 2.11
 resolvers += Resolver.bintrayRepo("joprice", "maven")
 addCompilerPlugin("com.github.joprice" %% "qmark-plugin" % "0.0.1")
